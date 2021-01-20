@@ -55,7 +55,7 @@ class ElementTile extends StatelessWidget {
             group,
             style: TextStyle(
               color: Colors.black,
-              fontSize: 15,
+              fontSize: 10,
             ),
           )
         ],
