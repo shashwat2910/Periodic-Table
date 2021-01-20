@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:periodictable/models/block.dart';
+import 'package:periodictable/models/period4.dart';
 
 class HomePage extends StatefulWidget {
   @override
@@ -104,47 +105,7 @@ class _HomePageState extends State<HomePage> {
                       SizedBox(
                         height: 3.5,
                       ),
-                      Row(
-                        children: [
-                          ElementTile(
-                            atomnum: "19",
-                            symbol: "K",
-                            name: "Potassium",
-                            group: "AlkaliMetal",
-                            colorTile: 0xFFFFC3C3,
-                          ),
-                          SizedBox(
-                            width: 3.5,
-                          ),
-                          ElementTile(
-                            atomnum: "20",
-                            symbol: "Ca",
-                            name: "Calcium",
-                            group: "AlkalineEarth",
-                            colorTile: 0xFFD2D2FF,
-                          ),
-                          SizedBox(
-                            width: 3.5,
-                          ),
-                          ElementTile(
-                            atomnum: "21",
-                            symbol: "Sc",
-                            name: "Scandium",
-                            group: "TransitionMetal",
-                            colorTile: 0xFFB8DCFF,
-                          ),
-                          SizedBox(
-                            width: 3.5,
-                          ),
-                          ElementTile(
-                            atomnum: "21",
-                            symbol: "Sc",
-                            name: "Scandium",
-                            group: "TransitionMetal",
-                            colorTile: 0xFFB8DCFF,
-                          ),
-                        ],
-                      ),
+                      Period4(),
                       SizedBox(
                         height: 3.5,
                       ),
