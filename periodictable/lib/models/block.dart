@@ -74,3 +74,21 @@ class EmptyTile extends StatelessWidget {
     );
   }
 }
+
+class StarTile extends StatelessWidget {
+  StarTile({this.star});
+  String star;
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+      alignment: Alignment.center,
+      color: Colors.black,
+      height: 120,
+      width: 100,
+      child: Text(
+        star,
+        style: TextStyle(color: Colors.white, fontSize: 30),
+      ),
+    );
+  }
+}
