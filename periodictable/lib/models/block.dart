@@ -63,3 +63,14 @@ class ElementTile extends StatelessWidget {
     );
   }
 }
+
+class EmptyTile extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+      color: Colors.black,
+      height: 120,
+      width: 100,
+    );
+  }
+}

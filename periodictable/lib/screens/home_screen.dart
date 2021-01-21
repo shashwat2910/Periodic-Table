@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:periodictable/models/block.dart';
+import 'package:periodictable/models/period1.dart';
 import 'package:periodictable/models/period4.dart';
 
 class HomePage extends StatefulWidget {
@@ -43,17 +44,7 @@ class _HomePageState extends State<HomePage> {
                   child: Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
-                      Row(
-                        children: [
-                          ElementTile(
-                            atomnum: "1",
-                            symbol: "H",
-                            name: "Hydrogen",
-                            group: "Nonmetal",
-                            colorTile: 0xFFFFFFB8,
-                          ),
-                        ],
-                      ),
+                      Period1(),
                       SizedBox(
                         height: 3.5,
                       ),
