@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:periodictable/models/block.dart';
 import 'package:periodictable/models/period1.dart';
+import 'package:periodictable/models/period2.dart';
 import 'package:periodictable/models/period4.dart';
 
 class HomePage extends StatefulWidget {
@@ -48,27 +49,7 @@ class _HomePageState extends State<HomePage> {
                       SizedBox(
                         height: 3.5,
                       ),
-                      Row(
-                        children: [
-                          ElementTile(
-                            atomnum: "3",
-                            symbol: "Li",
-                            name: "Lithium",
-                            group: "AlkaliMetal",
-                            colorTile: 0xFFFFC3C3,
-                          ),
-                          SizedBox(
-                            width: 3.5,
-                          ),
-                          ElementTile(
-                            atomnum: "4",
-                            symbol: "Be",
-                            name: "Beryllium",
-                            group: "AlkalineEarth",
-                            colorTile: 0xFFD2D2FF,
-                          ),
-                        ],
-                      ),
+                      Period2(),
                       SizedBox(
                         height: 3.5,
                       ),
