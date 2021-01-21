@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:periodictable/models/block.dart';
+import 'package:periodictable/models/actinoid.dart';
+import 'package:periodictable/models/lanthanoid.dart';
 import 'package:periodictable/models/period1.dart';
 import 'package:periodictable/models/period2.dart';
 import 'package:periodictable/models/period3.dart';
@@ -34,8 +35,8 @@ class _HomePageState extends State<HomePage> {
       ),
       body: Container(
         padding: EdgeInsets.symmetric(
-          horizontal: 24,
-          vertical: 24,
+          horizontal: 12,
+          vertical: 12,
         ),
         child: ListView(
           shrinkWrap: true,
@@ -74,6 +75,14 @@ class _HomePageState extends State<HomePage> {
                         height: 3.5,
                       ),
                       Period7(),
+                      SizedBox(
+                        height: 15,
+                      ),
+                      Lanthanoid(),
+                      SizedBox(
+                        height: 3.5,
+                      ),
+                      Actinoid()
                     ],
                   ),
                 )
