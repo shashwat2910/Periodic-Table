@@ -4,6 +4,7 @@ import 'package:periodictable/models/period1.dart';
 import 'package:periodictable/models/period2.dart';
 import 'package:periodictable/models/period3.dart';
 import 'package:periodictable/models/period4.dart';
+import 'package:periodictable/models/period5.dart';
 
 class HomePage extends StatefulWidget {
   @override
@@ -62,27 +63,7 @@ class _HomePageState extends State<HomePage> {
                       SizedBox(
                         height: 3.5,
                       ),
-                      Row(
-                        children: [
-                          ElementTile(
-                            atomnum: "37",
-                            symbol: "Rb",
-                            name: "Rubidium",
-                            group: "AlkaliMetal",
-                            colorTile: 0xFFFFC3C3,
-                          ),
-                          SizedBox(
-                            width: 3.5,
-                          ),
-                          ElementTile(
-                            atomnum: "38",
-                            symbol: "Sr",
-                            name: "Strontium",
-                            group: "AlkalineEarth",
-                            colorTile: 0xFFD2D2FF,
-                          ),
-                        ],
-                      ),
+                      Period5(),
                       SizedBox(
                         height: 3.5,
                       ),

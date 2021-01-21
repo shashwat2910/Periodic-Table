@@ -63,6 +63,10 @@ class Period3 extends StatelessWidget {
         SizedBox(
           width: 3.5,
         ),
+        EmptyTile(),
+        SizedBox(
+          width: 3.5,
+        ),
         ElementTile(
           atomnum: "13",
           symbol: "Al",

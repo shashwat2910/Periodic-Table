@@ -67,6 +67,10 @@ class Period2 extends StatelessWidget {
         SizedBox(
           width: 3.5,
         ),
+        EmptyTile(),
+        SizedBox(
+          width: 3.5,
+        ),
         ElementTile(
           atomnum: "5",
           symbol: "B",
