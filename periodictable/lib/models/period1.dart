@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+import 'Info.dart';
 import 'block.dart';
 
 class Period1 extends StatelessWidget {
@@ -7,12 +8,20 @@ class Period1 extends StatelessWidget {
   Widget build(BuildContext context) {
     return Row(
       children: [
-        ElementTile(
-          atomnum: "1",
-          symbol: "H",
-          name: "Hydrogen",
-          group: "Nonmetal",
-          colorTile: 0xFFFFFFB8,
+        GestureDetector(
+          onTap: () {
+            Navigator.push(
+                context, MaterialPageRoute<void>(builder: (context) => Info()));
+          },
+          child: Container(
+            child: ElementTile(
+              atomnum: "1",
+              symbol: "H",
+              name: "Hydrogen",
+              group: "Nonmetal",
+              colorTile: 0xFFFFFFB8,
+            ),
+          ),
         ),
         SizedBox(
           width: 3.5,

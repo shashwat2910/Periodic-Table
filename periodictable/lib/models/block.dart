@@ -45,7 +45,7 @@ class ElementTile extends StatelessWidget {
             name,
             style: TextStyle(
               color: Colors.black,
-              fontSize: 15,
+              fontSize: 13,
             ),
           ),
           SizedBox(
