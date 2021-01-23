@@ -54,7 +54,7 @@ class Info extends StatelessWidget {
           children: [
             Container(
               padding: EdgeInsets.symmetric(
-                horizontal: 12,
+                horizontal: 24,
                 vertical: 12,
               ),
               width: MediaQuery.of(context).size.width,
@@ -64,12 +64,86 @@ class Info extends StatelessWidget {
                 children: [
                   Container(
                     width: MediaQuery.of(context).size.width,
-                    height: 300,
+                    height: 200,
                     decoration: BoxDecoration(
-                        color: Colors.white,
+                        color: Color(color),
                         borderRadius: BorderRadius.circular(8)),
                     child: Column(
-                      children: [],
+                      mainAxisAlignment: MainAxisAlignment.center,
+                      children: [
+                        Text(
+                          atomNumber,
+                          style: TextStyle(color: Colors.black, fontSize: 30),
+                        ),
+                        SizedBox(
+                          height: 10,
+                        ),
+                        Text(
+                          symbol,
+                          style: TextStyle(color: Colors.black, fontSize: 50),
+                        ),
+                        SizedBox(
+                          height: 10,
+                        ),
+                        Text(
+                          name,
+                          style: TextStyle(color: Colors.black, fontSize: 40),
+                        ),
+                        SizedBox(
+                          height: 10,
+                        ),
+                        Text(
+                          group,
+                          style: TextStyle(color: Colors.black, fontSize: 35),
+                        ),
+                      ],
+                    ),
+                  ),
+                  SizedBox(
+                    height: 20,
+                  ),
+                  Container(
+                    child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.stretch,
+                      children: [
+                        Text(
+                          state,
+                          style: TextStyle(
+                            color: Colors.white,
+                            fontSize: 25,
+                          ),
+                        ),
+                        SizedBox(
+                          height: 5,
+                        ),
+                        Text(
+                          atomMass,
+                          style: TextStyle(
+                            color: Colors.white,
+                            fontSize: 25,
+                          ),
+                        ),
+                        SizedBox(
+                          height: 5,
+                        ),
+                        Text(
+                          electronConfig,
+                          style: TextStyle(
+                            color: Colors.white,
+                            fontSize: 25,
+                          ),
+                        ),
+                        SizedBox(
+                          height: 5,
+                        ),
+                        Text(
+                          oxidationStates,
+                          style: TextStyle(
+                            color: Colors.white,
+                            fontSize: 25,
+                          ),
+                        ),
+                      ],
                     ),
                   ),
                 ],

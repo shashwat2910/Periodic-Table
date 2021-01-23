@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-
-import 'Info.dart';
+import 'package:periodictable/Information/period1.dart';
 import 'block.dart';
 
 class Period1 extends StatelessWidget {
@@ -10,8 +9,8 @@ class Period1 extends StatelessWidget {
       children: [
         GestureDetector(
           onTap: () {
-            Navigator.push(
-                context, MaterialPageRoute<void>(builder: (context) => Info()));
+            Navigator.push(context,
+                MaterialPageRoute<void>(builder: (context) => Hydrogen()));
           },
           child: Container(
             child: ElementTile(
