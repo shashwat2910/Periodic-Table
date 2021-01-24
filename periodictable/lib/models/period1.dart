@@ -89,12 +89,20 @@ class Period1 extends StatelessWidget {
         SizedBox(
           width: 3.5,
         ),
-        ElementTile(
-          atomnum: "2",
-          symbol: "He",
-          name: "Helium",
-          group: "NobleGas",
-          colorTile: 0xFFFFE3BA,
+        GestureDetector(
+          onTap: () {
+            Navigator.push(context,
+                MaterialPageRoute<void>(builder: (context) => Helium()));
+          },
+          child: Container(
+            child: ElementTile(
+              atomnum: "2",
+              symbol: "He",
+              name: "Helium",
+              group: "NobleGas",
+              colorTile: 0xFFFFE3BA,
+            ),
+          ),
         ),
       ],
     );

@@ -87,14 +87,14 @@ class Info extends StatelessWidget {
                         ),
                         Text(
                           name,
-                          style: TextStyle(color: Colors.black, fontSize: 40),
+                          style: TextStyle(color: Colors.black, fontSize: 35),
                         ),
                         SizedBox(
-                          height: 10,
+                          height: 5,
                         ),
                         Text(
                           group,
-                          style: TextStyle(color: Colors.black, fontSize: 35),
+                          style: TextStyle(color: Colors.black, fontSize: 30),
                         ),
                       ],
                     ),
@@ -104,7 +104,7 @@ class Info extends StatelessWidget {
                   ),
                   Container(
                     child: Column(
-                      crossAxisAlignment: CrossAxisAlignment.stretch,
+                      crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
                         Text(
                           state,
@@ -138,6 +138,86 @@ class Info extends StatelessWidget {
                         ),
                         Text(
                           oxidationStates,
+                          style: TextStyle(
+                            color: Colors.white,
+                            fontSize: 25,
+                          ),
+                        ),
+                        SizedBox(
+                          height: 5,
+                        ),
+                        Text(
+                          electronegativity,
+                          style: TextStyle(
+                            color: Colors.white,
+                            fontSize: 25,
+                          ),
+                        ),
+                        SizedBox(
+                          height: 5,
+                        ),
+                        Text(
+                          atomicRadius,
+                          style: TextStyle(
+                            color: Colors.white,
+                            fontSize: 25,
+                          ),
+                        ),
+                        SizedBox(
+                          height: 5,
+                        ),
+                        Text(
+                          ionizationEnergy,
+                          style: TextStyle(
+                            color: Colors.white,
+                            fontSize: 25,
+                          ),
+                        ),
+                        SizedBox(
+                          height: 5,
+                        ),
+                        Text(
+                          electronAffinity,
+                          style: TextStyle(
+                            color: Colors.white,
+                            fontSize: 25,
+                          ),
+                        ),
+                        SizedBox(
+                          height: 5,
+                        ),
+                        Text(
+                          meltingPoint,
+                          style: TextStyle(
+                            color: Colors.white,
+                            fontSize: 25,
+                          ),
+                        ),
+                        SizedBox(
+                          height: 5,
+                        ),
+                        Text(
+                          boilingPoint,
+                          style: TextStyle(
+                            color: Colors.white,
+                            fontSize: 25,
+                          ),
+                        ),
+                        SizedBox(
+                          height: 5,
+                        ),
+                        Text(
+                          density,
+                          style: TextStyle(
+                            color: Colors.white,
+                            fontSize: 25,
+                          ),
+                        ),
+                        SizedBox(
+                          height: 5,
+                        ),
+                        Text(
+                          year,
                           style: TextStyle(
                             color: Colors.white,
                             fontSize: 25,
