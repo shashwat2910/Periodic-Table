@@ -61,7 +61,7 @@ class Scandium extends StatelessWidget {
       group: "Transition Metal",
       color: 0xFFB8DCFF,
       state: "Standard State: Solid",
-      atomMass: "Atomic Mass: 44.95591 u",
+      atomMass: "Atomic Mass: 44.95 u",
       electronConfig: "Electron Configuration: [Ar]4s23d1",
       oxidationStates: "Oxidation States: +3",
       electronegativity: "Electronegativity: 1.36",
@@ -161,7 +161,7 @@ class Manganese extends StatelessWidget {
       group: "Transition Metal",
       color: 0xFFB8DCFF,
       state: "Standard State: Solid",
-      atomMass: "Atomic Mass: 54.93804 u",
+      atomMass: "Atomic Mass: 54.93 u",
       electronConfig: "Electron Configuration: [Ar]4s23d5",
       oxidationStates: "Oxidation States: +7, +4, +3, +2",
       electronegativity: "Electronegativity: 1.55",
@@ -197,6 +197,256 @@ class Iron extends StatelessWidget {
       boilingPoint: "Boiling Point: 3134 K",
       density: "Density: 7.8743 g/cm³",
       year: "Year Discovered: Ancient",
+    );
+  }
+}
+
+class Cobalt extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return Info(
+      atomNumber: "27",
+      symbol: "Co",
+      name: "Cobalt",
+      group: "Transition Metal",
+      color: 0xFFB8DCFF,
+      state: "Standard State: Solid",
+      atomMass: "Atomic Mass: 58.93 u",
+      electronConfig: "Electron Configuration: [Ar]4s23d7",
+      oxidationStates: "Oxidation States: +3, +2",
+      electronegativity: "Electronegativity: 1.88",
+      atomicRadius: "Atomic Radius: 192 pm",
+      ionizationEnergy: "Ionization Energy: 7.881 eV",
+      electronAffinity: "Electron Affinity: 0.661 eV",
+      meltingPoint: "Melting Point: 1768 K",
+      boilingPoint: "Boiling Point: 3200 K",
+      density: "Density: 8.86 g/cm³",
+      year: "Year Discovered: 1735",
+    );
+  }
+}
+
+class Nickel extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return Info(
+      atomNumber: "28",
+      symbol: "Ni",
+      name: "Nickel",
+      group: "Transition Metal",
+      color: 0xFFB8DCFF,
+      state: "Standard State: Solid",
+      atomMass: "Atomic Mass: 58.69 u",
+      electronConfig: "Electron Configuration: [Ar]4s23d8",
+      oxidationStates: "Oxidation States: +3, +2",
+      electronegativity: "Electronegativity: 1.91",
+      atomicRadius: "Atomic Radius: 163 pm",
+      ionizationEnergy: "Ionization Energy: 7.640 eV",
+      electronAffinity: "Electron Affinity: 1.156 eV",
+      meltingPoint: "Melting Point: 1728 K",
+      boilingPoint: "Boiling Point: 3186 K",
+      density: "Density: 8.912 g/cm³",
+      year: "Year Discovered: 1751",
+    );
+  }
+}
+
+class Copper extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return Info(
+      atomNumber: "29",
+      symbol: "Cu",
+      name: "Copper",
+      group: "Transition Metal",
+      color: 0xFFB8DCFF,
+      state: "Standard State: Solid",
+      atomMass: "Atomic Mass: 63.55 u",
+      electronConfig: "Electron Configuration: [Ar]4s13d10",
+      oxidationStates: "Oxidation States: +1, +2",
+      electronegativity: "Electronegativity: 1.9",
+      atomicRadius: "Atomic Radius: 140 pm",
+      ionizationEnergy: "Ionization Energy: 7.726 eV",
+      electronAffinity: "Electron Affinity: 1.228 eV",
+      meltingPoint: "Melting Point: 1357.77 K",
+      boilingPoint: "Boiling Point: 2835 K",
+      density: "Density: 8.933 g/cm³",
+      year: "Year Discovered: Ancient",
+    );
+  }
+}
+
+class Zinc extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return Info(
+      atomNumber: "30",
+      symbol: "Zn",
+      name: "Zinc",
+      group: "Transition Metal",
+      color: 0xFFB8DCFF,
+      state: "Standard State: Solid",
+      atomMass: "Atomic Mass: 65.4 u",
+      electronConfig: "Electron Configuration: [Ar]4s23d10",
+      oxidationStates: "Oxidation States: +2",
+      electronegativity: "Electronegativity: 1.65",
+      atomicRadius: "Atomic Radius: 139 pm",
+      ionizationEnergy: "Ionization Energy: 9.394 eV",
+      electronAffinity: "Electron Affinity: NULL",
+      meltingPoint: "Melting Point: 692.68 K",
+      boilingPoint: "Boiling Point: 1180 K",
+      density: "Density: 7.134 g/cm³",
+      year: "Year Discovered: 1746",
+    );
+  }
+}
+
+class Gallium extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return Info(
+      atomNumber: "31",
+      symbol: "Ga",
+      name: "Gallium",
+      group: "Post-Transition Metal",
+      color: 0xFFBBFFBB,
+      state: "Standard State: Solid",
+      atomMass: "Atomic Mass: 69.72 u",
+      electronConfig: "Electron Configuration: [Ar]4s23d104p1",
+      oxidationStates: "Oxidation States: +3",
+      electronegativity: "Electronegativity: 1.81",
+      atomicRadius: "Atomic Radius: 187 pm",
+      ionizationEnergy: "Ionization Energy: 5.999 eV",
+      electronAffinity: "Electron Affinity: 0.3 eV",
+      meltingPoint: "Melting Point: 302.91 K",
+      boilingPoint: "Boiling Point: 2477 K",
+      density: "Density: 5.91 g/cm³",
+      year: "Year Discovered: 1875",
+    );
+  }
+}
+
+class Germanium extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return Info(
+      atomNumber: "32",
+      symbol: "Ge",
+      name: "Germanium",
+      group: "Metalloid",
+      color: 0xFFE1EEBB,
+      state: "Standard State: Solid",
+      atomMass: "Atomic Mass: 72.63 u",
+      electronConfig: "Electron Configuration: [Ar]4s23d104p2",
+      oxidationStates: "Oxidation States: +4, +2",
+      electronegativity: "Electronegativity: 2.01",
+      atomicRadius: "Atomic Radius: 211 pm",
+      ionizationEnergy: "Ionization Energy: 7.900 eV",
+      electronAffinity: "Electron Affinity: 1.35 eV",
+      meltingPoint: "Melting Point: 1211.4 K",
+      boilingPoint: "Boiling Point: 3106 K",
+      density: "Density: 5.323 g/cm³",
+      year: "Year Discovered: 1886",
+    );
+  }
+}
+
+class Arsenic extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return Info(
+      atomNumber: "33",
+      symbol: "As",
+      name: "Arsenic",
+      group: "Metalloid",
+      color: 0xFFE1EEBB,
+      state: "Standard State: Solid",
+      atomMass: "Atomic Mass: 74.92 u",
+      electronConfig: "Electron Configuration: [Ar]4s23d104p3",
+      oxidationStates: "Oxidation States: +5, +3, -3",
+      electronegativity: "Electronegativity: 2.18",
+      atomicRadius: "Atomic Radius: 185 pm",
+      ionizationEnergy: "Ionization Energy: 9.815 eV",
+      electronAffinity: "Electron Affinity: 0.81 eV",
+      meltingPoint: "Melting Point: 1090 K",
+      boilingPoint: "Boiling Point: 887 K",
+      density: "Density: 5.776 g/cm³",
+      year: "Year Discovered: Ancient",
+    );
+  }
+}
+
+class Selenium extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return Info(
+      atomNumber: "34",
+      symbol: "Se",
+      name: "Selenium",
+      group: "NonMetal",
+      color: 0xFFFFFFB9,
+      state: "Standard State: Solid",
+      atomMass: "Atomic Mass: 78.97 u",
+      electronConfig: "Electron Configuration: [Ar]4s23d104p4",
+      oxidationStates: "Oxidation States: +6, +4, -2",
+      electronegativity: "Electronegativity: 2.55",
+      atomicRadius: "Atomic Radius: 190 pm",
+      ionizationEnergy: "Ionization Energy: 9.752 eV",
+      electronAffinity: "Electron Affinity: 2.021 eV",
+      meltingPoint: "Melting Point: 493.65 K",
+      boilingPoint: "Boiling Point: 958 K",
+      density: "Density: 4.809 g/cm³",
+      year: "Year Discovered: 1817",
+    );
+  }
+}
+
+class Bromine extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return Info(
+      atomNumber: "35",
+      symbol: "Br",
+      name: "Bromine",
+      group: "NonMetal",
+      color: 0xFFFFFFB9,
+      state: "Standard State: Liquid",
+      atomMass: "Atomic Mass: 79.90 u",
+      electronConfig: "Electron Configuration: [Ar]4s23d104p5",
+      oxidationStates: "Oxidation States: +5, +1, -1",
+      electronegativity: "Electronegativity: 2.96",
+      atomicRadius: "Atomic Radius: 183 pm",
+      ionizationEnergy: "Ionization Energy: 11.814 eV",
+      electronAffinity: "Electron Affinity: 3.365 eV",
+      meltingPoint: "Melting Point: 265.95 K",
+      boilingPoint: "Boiling Point: 331.95 K",
+      density: "Density: 3.11 g/cm³",
+      year: "Year Discovered: 1826",
+    );
+  }
+}
+
+class Krypton extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return Info(
+      atomNumber: "36",
+      symbol: "Kr",
+      name: "Krypton",
+      group: "Noble Gas",
+      color: 0xFFFFE3BA,
+      state: "Standard State: Gas",
+      atomMass: "Atomic Mass: 83.80 u",
+      electronConfig: "Electron Configuration: [Ar]4s23d104p6",
+      oxidationStates: "Oxidation States: 0",
+      electronegativity: "Electronegativity: 3",
+      atomicRadius: "Atomic Radius: 202 pm",
+      ionizationEnergy: "Ionization Energy: 14.000 eV",
+      electronAffinity: "Electron Affinity: Null",
+      meltingPoint: "Melting Point: 115.79 K",
+      boilingPoint: "Boiling Point: 119.93 K",
+      density: "Density: 0.003733 g/cm³",
+      year: "Year Discovered: 1898",
     );
   }
 }
