@@ -408,7 +408,7 @@ class Bromine extends StatelessWidget {
       atomNumber: "35",
       symbol: "Br",
       name: "Bromine",
-      group: "NonMetal",
+      group: "Halogen",
       color: 0xFFFFFFB9,
       state: "Standard State: Liquid",
       atomMass: "Atomic Mass: 79.90 u",
