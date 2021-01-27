@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:periodictable/models/Info.dart';
 
-class Potassium extends StatelessWidget {
+class Lanthanum extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Info(
