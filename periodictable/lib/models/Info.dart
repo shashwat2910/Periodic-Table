@@ -48,23 +48,22 @@ class Info extends StatelessWidget {
           style: TextStyle(color: Colors.white),
         ),
       ),
-      body: SafeArea(
-        child: Row(
+      body: SingleChildScrollView(
+        scrollDirection: Axis.vertical,
+        child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             Container(
+              width: MediaQuery.of(context).size.width,
               padding: EdgeInsets.symmetric(
                 horizontal: 24,
                 vertical: 12,
               ),
-              width: MediaQuery.of(context).size.width,
-              height: MediaQuery.of(context).size.height,
               child: Column(
                 mainAxisAlignment: MainAxisAlignment.start,
                 children: [
                   Container(
                     width: MediaQuery.of(context).size.width,
-                    height: 200,
                     decoration: BoxDecoration(
                         color: Color(color),
                         borderRadius: BorderRadius.circular(8)),
@@ -76,14 +75,14 @@ class Info extends StatelessWidget {
                           style: TextStyle(color: Colors.black, fontSize: 30),
                         ),
                         SizedBox(
-                          height: 10,
+                          height: 5,
                         ),
                         Text(
                           symbol,
                           style: TextStyle(color: Colors.black, fontSize: 50),
                         ),
                         SizedBox(
-                          height: 10,
+                          height: 5,
                         ),
                         Text(
                           name,
@@ -100,7 +99,7 @@ class Info extends StatelessWidget {
                     ),
                   ),
                   SizedBox(
-                    height: 20,
+                    height: 10,
                   ),
                   Container(
                     child: Column(
